@@ -67,5 +67,34 @@ testGlobal();
 // echo $localVar;
 ?>
 
+<?php
+// OOP Example
+
+class Car {
+  // Properties
+  public $color;
+  public $model;
+
+  // Constructor
+  public function __construct($color, $model) {
+    $this->color = $color;
+    $this->model = $model;
+  }
+
+  // Method
+  public function message() {
+    return "My car is a " . $this->color . " " . $this->model . ".";
+  }
+}
+
+// Create an object
+$myCar = new Car("red", "Toyota");
+echo $myCar->message() . "<br>";
+
+// Another object
+$anotherCar = new Car("blue", "Ford");
+echo $anotherCar->message() . "<br>";
+?>
+
 </body>
 </html>
