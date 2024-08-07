@@ -1,39 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Display</title>
-
-</head>
-<body>
-    <div id="temp-container">
-        <div class="temperature" id="temperature"></div>
-        <div class="message" id="message"></div>
-    </div>
-
-    <script>
-        // Function to display temperature
-        function displayTemperature(temp) {
-            const tempContainer = document.getElementById('temp-container');
-            const tempElement = document.getElementById('temperature');
-            const messageElement = document.getElementById('message');
-
-            if (temp >= 30 && temp <= 100) {
-                tempElement.textContent = `Temperature: ${temp}°F`;
-                messageElement.textContent = "The temperature is nice.";
-            } else {
-                tempElement.textContent = `Temperature: ${temp}°F`;
-                messageElement.textContent = "The temperature is outside the nice range.";
-            }
-        }
-
-        // Example temperature value
-        const temperature = 75; // You can change this value for testing
-        displayTemperature(temperature);
-    </script>
-</body>
-</html> -->
 <!DOCTYPE html>
 <html>
 <head>
