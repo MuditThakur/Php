@@ -10,7 +10,7 @@
         <input type="number" id="number" name="number" required>
         <input type="submit" name="submit" value="Check">
     </form>
-
+    
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $number = $_POST["number"];
